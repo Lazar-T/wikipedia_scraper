@@ -3,7 +3,7 @@
 
 ###About
 
-Spider built with [Scrapy](http://scrapy.org/). Scrapes [random articles](https://en.wikipedia.org/wiki/Special:Random) from [en.wikipedia.org](https://en.wikipedia.org/wiki/Main_Page) and writes page url and title into a csv file.
+Spider built with [Scrapy](http://scrapy.org/). Scrapes [random articles](https://en.wikipedia.org/wiki/Special:Random) from [en.wikipedia.org](https://en.wikipedia.org/wiki/Main_Page) and gets data such as page url and title.
 
 ###Screenshot
 
