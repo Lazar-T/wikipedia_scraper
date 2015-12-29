@@ -19,10 +19,8 @@ class WikipediaSpider(scrapy.Spider):
         # Scraping title from the random article page
         title = response.xpath('//h1/text()').extract_first()
 
-        # Put two of these items into a dictionary
+        # Put title and page url into a dictionary
         items = {
             'Title': title,
             'Page Url': response.url}
-
-        # If we don't call yield, items won't be written in a csv file.
         yield items
