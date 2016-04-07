@@ -3,7 +3,7 @@ from scrapy import Spider
 
 
 class WikipediaSpider(Spider):
-    name = "wikipedia"  # Name of our spider
+    name = 'wikipedia'  # Name of our spider
 
     # Only allow links from en.wikipedia.com
     allowed_domains = ['en.wikipedia.com']
