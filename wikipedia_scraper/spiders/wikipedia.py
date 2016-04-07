@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
-import scrapy
+from scrapy import Spider
 
 
-class WikipediaSpider(scrapy.Spider):
+class WikipediaSpider(Spider):
     name = "wikipedia"  # Name of our spider
 
     # Only allow links from en.wikipedia.com
